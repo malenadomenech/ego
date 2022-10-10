@@ -38,7 +38,7 @@ _Configurar settings local.py y reemplazar datos del DATABASES por los que corre
 ```
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql', # Conector de DB
+        'ENGINE': 'django.db.backends.mysql', # Conector de DB
         'NAME': 'NombreBaseDeDatos',
         'USER': 'UsuarioBaseDeDatos',
         'PASSWORD': 'ContraseñaBaseDeDatos',
